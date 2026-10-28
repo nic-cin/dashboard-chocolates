@@ -1,8 +1,10 @@
 # Dashboard Chocolates
 
 **Membros:** Leonardo, Kaique, Nicolas Oliveira
+
 **Dataset:** chocolates, http://flavorsofcacao.com/chocolate_database.html
-**App publicado:**
+
+**App publicado:** https://dashboard-chocolates-c93ecjmdcrqmluyosbht9a.streamlit.app/
 
 ## Funcionalidades
 
@@ -22,7 +24,7 @@
   - `app.py` monta a tela, a tabela e o mapa
   - `texts.py` e `locales/pt_br.py` guardam os textos da tela (para outro idioma, basta criar `locales/en.py` com as mesmas chaves)
 
-## Funcionalidade extra
+## Funcionalidades extras
 
 **Mapa por região.** O mapa mostra os países de origem do cacau coloridos por região. Passando o mouse em um país aparece a quantidade de avaliações e a nota média dele. Foi feito com `plotly.express.choropleth`.
 
@@ -33,6 +35,8 @@
 ## Como rodar
 
 No Windows, dentro da pasta do projeto:
+
+Antes de iniciar, confirme que o arquivo chocolates.csv está na raiz do projeto, no mesmo nível da pasta src.
 
 ```
 python -m venv .venv
