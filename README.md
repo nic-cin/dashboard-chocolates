@@ -1,4 +1,4 @@
-# Dashboard Chocolates
+﻿# Dashboard Chocolates
 
 **Membros:** Leonardo, Kaique, Nicolas Oliveira
 
@@ -41,7 +41,7 @@ Antes de iniciar, confirme que o arquivo chocolates.csv está na raiz do projeto
 ```
 python -m venv .venv
 .venv\Scripts\activate
-pip install -r src/requirements.txt
+pip install -r requirements.txt
 streamlit run src/app.py
 ```
 
