@@ -1,4 +1,4 @@
-# Dashboard Chocolates
+﻿# Dashboard Chocolates
 
 **Membros:** Leonardo, Kaique, Nicolas Oliveira
 **Dataset:** chocolates, http://flavorsofcacao.com/chocolate_database.html
@@ -37,7 +37,7 @@ No Windows, dentro da pasta do projeto:
 ```
 python -m venv .venv
 .venv\Scripts\activate
-pip install -r src/requirements.txt
+pip install -r requirements.txt
 streamlit run src/app.py
 ```
 
